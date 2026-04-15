@@ -1,0 +1,7 @@
+package com.fawry.routing.repository;
+
+import com.fawry.routing.domain.entity.AuditLog;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuditLogRepository extends JpaRepository<AuditLog, Long> {
+}
